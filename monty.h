@@ -86,4 +86,7 @@ void free_dlistint(stack_t *head);
 void dobfree(stack_t **stack);
 void dobfree2(stack_t **stack);
 int _isalpha(int c);
+void f_stack(stack_t **head, unsigned int counter);
+void f_queue(stack_t **head, unsigned int counter);
+void addqueue(stack_t **head, int n);
 #endif
